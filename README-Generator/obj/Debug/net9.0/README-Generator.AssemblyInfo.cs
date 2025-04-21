@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("README-Generator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+074bdcf2cb76d17928cbcec8e0906573c7c6ff8d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aac6b9abc411ef4634e36ce67af8cedd10232d68")]
 [assembly: System.Reflection.AssemblyProductAttribute("README-Generator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("README-Generator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

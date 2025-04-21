@@ -1,0 +1,15 @@
+/Users/ethan/develop/README-CS/README-Generator/bin/Debug/net9.0/README-Generator
+/Users/ethan/develop/README-CS/README-Generator/bin/Debug/net9.0/README-Generator.deps.json
+/Users/ethan/develop/README-CS/README-Generator/bin/Debug/net9.0/README-Generator.runtimeconfig.json
+/Users/ethan/develop/README-CS/README-Generator/bin/Debug/net9.0/README-Generator.dll
+/Users/ethan/develop/README-CS/README-Generator/bin/Debug/net9.0/README-Generator.pdb
+/Users/ethan/develop/README-CS/README-Generator/obj/Debug/net9.0/README-Generator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ethan/develop/README-CS/README-Generator/obj/Debug/net9.0/README-Generator.AssemblyInfoInputs.cache
+/Users/ethan/develop/README-CS/README-Generator/obj/Debug/net9.0/README-Generator.AssemblyInfo.cs
+/Users/ethan/develop/README-CS/README-Generator/obj/Debug/net9.0/README-Generator.csproj.CoreCompileInputs.cache
+/Users/ethan/develop/README-CS/README-Generator/obj/Debug/net9.0/README-Generator.sourcelink.json
+/Users/ethan/develop/README-CS/README-Generator/obj/Debug/net9.0/README-Generator.dll
+/Users/ethan/develop/README-CS/README-Generator/obj/Debug/net9.0/refint/README-Generator.dll
+/Users/ethan/develop/README-CS/README-Generator/obj/Debug/net9.0/README-Generator.pdb
+/Users/ethan/develop/README-CS/README-Generator/obj/Debug/net9.0/README-Generator.genruntimeconfig.cache
+/Users/ethan/develop/README-CS/README-Generator/obj/Debug/net9.0/ref/README-Generator.dll
