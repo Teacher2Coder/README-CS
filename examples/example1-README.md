@@ -1,7 +1,7 @@
-# test
+# MyAwesomeProject
 
 ## Description
-test
+A fantastic project that does amazing things
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,18 +12,18 @@ test
 - [Questions](#questions)
 
 ## Installation
-test
+npm install
 
 ## Usage
 Add usage instructions here.
 
 ## Contributing
-test
+Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2025 test
+Copyright (c) 2025 ethan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -35,6 +35,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 ## Questions
-* GitHub: [@test](https://www.github.com/test)
-* Email: test
+* GitHub: [@ethan](https://www.github.com/ethan)
+* Email: ethan@example.com
 

@@ -107,36 +107,40 @@ class Questions
     Console.WriteLine("[ 7 ] Mozilla Public License 2.0");
     Console.WriteLine("[ 8 ] Eclipse Public License 2.0");
     Console.WriteLine("[ 9 ] Creative Commons Zero v1.0 Universal");
-    Console.WriteLine("[ 10 ] Unlicense");
+    Console.WriteLine("[ 10 ] WTFPL");
     Console.WriteLine("[ 11 ] No licence");
     Console.WriteLine("[ 12 ] Other");
     Console.ResetColor();
-    string answer = Console.ReadLine() ?? string.Empty;
-
-    if (string.IsNullOrEmpty(answer))
+    
+    while (true)
     {
+      string answer = Console.ReadLine() ?? string.Empty;
+      
+      if (string.IsNullOrEmpty(answer))
+      {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("Licence type cannot be empty.");
+        Console.ResetColor();
+        continue;
+      }
+      
+      if (answer == "1" || answer == "2" || answer == "3" || answer == "4" ||
+          answer == "5" || answer == "6" || answer == "7" || answer == "8" ||
+          answer == "9" || answer == "10" || answer == "11" || answer == "12")
+      {
+        return answer;
+      }
+      
       Console.ForegroundColor = ConsoleColor.Red;
-      Console.WriteLine("Licence type cannot be empty.");
+      Console.WriteLine("Invalid input. Please enter a number between 1 and 12.");
       Console.ResetColor();
-      return AskLicense();
     }
-    else if (answer != "1" && answer != "2" && answer != "3" && answer != "4"
-      && answer != "5" && answer != "6" && answer != "7" && answer != "8"
-      && answer != "9" && answer != "10" && answer != "11" && answer != "12")
-    {
-      Console.ForegroundColor = ConsoleColor.Red;
-      Console.WriteLine("Invalid input.");
-      Console.ResetColor();
-      return AskLicense();
-    }
-
-    return answer;
   }
 
   public static string AskContribute()
   {
     Console.ForegroundColor = ConsoleColor.Cyan;
-    Console.WriteLine("How can others contribute ot the project?");
+    Console.WriteLine("How can others contribute to the project?");
     Console.ResetColor();
     string answer = Console.ReadLine() ?? string.Empty;
 
